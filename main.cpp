@@ -1,7 +1,7 @@
 #include <iostream>
-#include "P1003.h"
+#include "Problems/P1004.h"
 
 int main() {
-    P1003();
+    P1004();
     return 0;
 }
