@@ -1,7 +1,6 @@
-#include <iostream>
-#include "Problems/P1004.h"
+#include "Problems/P1005.h"
 
 int main() {
-    P1004();
+    P1005();
     return 0;
 }

@@ -24,7 +24,6 @@ void P1004()
                 f[k][i][j] = max({f[k - 1][i][j],f[k - 1][i - 1][j],f[k - 1][i][j - 1],f[k - 1][i - 1][j - 1]}) + map[k - i + 1][i] + map[k - j + 1][j];
                 if(i == j) f[k][i][j] -= map[k - i + 1][i];
             }
-
     f[n + m][n][n] = max({f[n + m - 1][n][n - 1],f[n + m - 1][n - 1][n],f[n + m - 1][n][n],f[n + m - 1][n - 1][n - 1]});
     printf("%d\n",f[n + m][n][n]);
 }
